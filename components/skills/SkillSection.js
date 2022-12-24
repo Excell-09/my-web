@@ -42,7 +42,7 @@ const Skills = () => {
         <Skillbar titleSkill="javascript" persen="60%" text="javascript" />
         <Skillbar titleSkill="tailwind" persen="65%" text="tailwind" />
         <Skillbar titleSkill="reactjs" persen="55%" text="react js" />
-        <Skillbar titleSkill="github" persen="70%" text="github" />
+        <Skillbar titleSkill="github" persen="50%" text="github" />
       </div>
     </section>
   );

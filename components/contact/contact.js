@@ -21,9 +21,9 @@ const Contact = () => {
           <input type="text" name="name" placeholder="name" required className="flex-1 px-4 py-2 focus:outline-2 focus:outline-sky-700 placeholder:capitalize text-black text-lg" minLength="2" />
           <input type="email" name="email" placeholder="email" required className="flex-1 px-4 py-2 focus:outline-2 focus:outline-sky-700 placeholder:capitalize text-black text-lg" />
           <textarea type="text" placeholder="masukan isi pesan anda" required rows="5" className="flex-1 px-4 py-2 focus:outline-2 focus:outline-sky-700 placeholder:capitalize text-black text-lg"></textarea>
-          <div className="flex gap-4 ">
-            <input type="submit" className=" bg-sky-700 px-4 py-2 hover:opacity-75" />
-            <a href="#home" className="sm:hidden bg-sky-300 bg-opacity-20 border-4 border-sky-700 px-4 py-2 capitalize hover:opacity-75 ">
+          <div className="flex gap-4">
+            <input type="submit" className=" bg-sky-400 px-4 py-2 hover:opacity-75" />
+            <a href="#home" className="sm:hidden bg-sky-300 bg-opacity-20 border-4 border-sky-500 px-4 py-2 capitalize hover:opacity-75 ">
               sosial media
             </a>
           </div>
