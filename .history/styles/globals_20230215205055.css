@@ -162,7 +162,6 @@ html {
     position: relative;
     transition: all;
     transition-duration: 0.3s;
-    margin-bottom: 0.8rem;
   }
 
   .project-group::after {
@@ -206,9 +205,6 @@ html {
 @media (max-width: 640px) {
   .project-detail {
     display: block;
-  }
-  .project-group::after {
-    opacity: 0.75;
   }
 }
 

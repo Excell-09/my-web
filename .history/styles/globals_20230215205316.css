@@ -162,7 +162,7 @@ html {
     position: relative;
     transition: all;
     transition-duration: 0.3s;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.7rem;
   }
 
   .project-group::after {

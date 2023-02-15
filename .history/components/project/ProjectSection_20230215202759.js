@@ -6,19 +6,18 @@ const ProjectImage = [
     banner: amazon,
     title: 'amazon clone',
     url: 'http://amazon-clone-excell-09.vercel.app',
-    danger: true,
+    danger: 'true',
   },
   {
     banner: netflix,
     title: 'netflix clone',
     url: 'https://neflix-simply-clone.vercel.app',
-    danger: false,
+    danger: 'true',
   },
   {
     banner: shopping,
     title: 'shopping',
     url: 'https://shopping-three-xi.vercel.app',
-    danger: false,
   },
 ];
 

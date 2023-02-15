@@ -5,20 +5,17 @@ const ProjectImage = [
   {
     banner: amazon,
     title: 'amazon clone',
-    url: 'http://amazon-clone-excell-09.vercel.app',
-    danger: true,
+    url: 'amazon-clone-excell-09.vercel.app',
   },
   {
     banner: netflix,
     title: 'netflix clone',
     url: 'https://neflix-simply-clone.vercel.app',
-    danger: false,
   },
   {
     banner: shopping,
     title: 'shopping',
-    url: 'https://shopping-three-xi.vercel.app',
-    danger: false,
+    url: 'shopping-three-xi.vercel.app',
   },
 ];
 
@@ -32,15 +29,27 @@ const ProjectSection = () => {
           Projects/portofolio
         </h2>
         <div className='grid sm:grid-cols-2 gap-2 sm:gap-4 md:gap-6 '>
-          {ProjectImage.map((item, i) => (
-            <ImageComponent
-              key={i}
-              danger={item.danger}
-              directUrl={item.url}
-              image={item.banner}
-              alt={item.title}
-            />
-          ))}
+          {ProjectImage.map((item,i))}
+          <ImageComponent
+            directUrl='/property'
+            image={propertyImg}
+            alt='property'
+          />
+          <ImageComponent
+            directUrl='/crypto'
+            image={cryptoImg}
+            alt='crypto'
+          />
+          <ImageComponent
+            directUrl='/netflix'
+            image={netflixImg}
+            alt='netflix'
+          />
+          <ImageComponent
+            directUrl='/twitch'
+            image={twitchImg}
+            alt='twitch'
+          />
         </div>
       </section>
     </>

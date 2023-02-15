@@ -17,7 +17,7 @@ const ImageComponent = ({ image, alt, directUrl, danger }) => {
             <a
               onClick={
                 danger
-                  ? () => alert('Warning!!!, web ini mengadung Deceptive site ahead karena web ini memiliki feature payment, untuk memasukinya, tekan details dan visit this unsafe site')
+                  ? () => alert('Warning!!!, web ini mengadung Deceptive site ahead karena web ini memiliki feature payment, untuk memasukinya tekan details dan visit this unsafe site')
                   : () => {}
               }
               target='_blank'
@@ -26,7 +26,7 @@ const ImageComponent = ({ image, alt, directUrl, danger }) => {
               className='capitalize border-4 border-sky-500 bg-sky-500 px-2 py-1 active:opacity-80 mb-1 block font-bold tracking-widest text-lg'>
               lainnya
             </a>
-            <p className=' whitespace-nowrap'>klik untuk melihat info lainnya</p>
+            <p>klik untuk melihat info lainnya</p>
           </div>
         </div>
       </article>

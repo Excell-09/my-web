@@ -162,7 +162,6 @@ html {
     position: relative;
     transition: all;
     transition-duration: 0.3s;
-    margin-bottom: 0.8rem;
   }
 
   .project-group::after {
@@ -207,8 +206,8 @@ html {
   .project-detail {
     display: block;
   }
-  .project-group::after {
-    opacity: 0.75;
+    .project-group::after {
+    opacity: 0.9;
   }
 }
 

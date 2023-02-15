@@ -6,19 +6,17 @@ const ProjectImage = [
     banner: amazon,
     title: 'amazon clone',
     url: 'http://amazon-clone-excell-09.vercel.app',
-    danger: true,
+    danger: 'true',
   },
   {
     banner: netflix,
     title: 'netflix clone',
     url: 'https://neflix-simply-clone.vercel.app',
-    danger: false,
   },
   {
     banner: shopping,
     title: 'shopping',
     url: 'https://shopping-three-xi.vercel.app',
-    danger: false,
   },
 ];
 
@@ -35,7 +33,7 @@ const ProjectSection = () => {
           {ProjectImage.map((item, i) => (
             <ImageComponent
               key={i}
-              danger={item.danger}
+              danger
               directUrl={item.url}
               image={item.banner}
               alt={item.title}
