@@ -1,7 +1,7 @@
-import { AiOutlineLinkedin, AiOutlineWhatsApp, AiOutlineGithub } from 'react-icons/ai';
+import { AiOutlineLinkedin, AiOutlineWhatsApp, AiOutlineGithub } from "react-icons/ai";
 
 const Contact = () => {
-  const urlEmail = '';
+  const urlEmail = "";
   return (
     <section id='contact' className='container h-full'>
       <article className='max-sm:hidden flex-1 flex flex-col justify-between items-start h-[392px]'>
@@ -16,13 +16,13 @@ const Contact = () => {
               className=' text-mybluedark shadow-xl shadow-mygrey p-1 hover:scale-110 hover:shadow-lg hover:shadow-mybluelight transition-all duration-300 border-4 w-14 h-auto rounded-full bg-white'
             />
           </a>
-          <a href='https://www.linkedin.com/in/jun-choi-46047123b/' target={'_blank'} rel='noreferrer'>
+          <a>
             <AiOutlineLinkedin
               size={'2rem'}
               className='text-mybluedark shadow-xl shadow-mygrey p-1 hover:scale-110 hover:shadow-lg hover:shadow-mybluelight transition-all duration-300 border-4 w-14 h-auto rounded-full bg-white'
             />
           </a>
-          <a href='https://api.whatsapp.com/send?phone=6289602391929' target={'_blank'} rel='noreferrer'>
+          <a>
             <AiOutlineWhatsApp
               size={'2rem'}
               className=' text-mybluedark shadow-xl shadow-mygrey p-1 hover:scale-110 hover:shadow-lg hover:shadow-mybluelight transition-all duration-300 border-4 w-14 h-auto rounded-full bg-white'

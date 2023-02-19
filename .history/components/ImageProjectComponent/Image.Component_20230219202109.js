@@ -1,4 +1,3 @@
-import Image from "next/image";
 
 
 const ImageComponent = ({ image, alt, directUrl, danger }) => {

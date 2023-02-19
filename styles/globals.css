@@ -42,6 +42,10 @@ html {
   h2 {
     @apply text-3xl sm:text-4xl;
   }
+
+  html {
+    @apply scroll-smooth;
+  }
 }
 
 @layer components {

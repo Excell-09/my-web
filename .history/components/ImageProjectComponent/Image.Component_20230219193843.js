@@ -1,12 +1,11 @@
-import Image from "next/image";
-
+import Image from 'next/image';
 
 const ImageComponent = ({ image, alt, directUrl, danger }) => {
   return (
     <>
       <article className='project'>
         <div className='project-group'>
-          <Image src={image} alt={alt} className='object-contain'/>
+          <Image src={image} alt={alt} className=' object-contain' width={1000} height={1000} />
           <div className='project-detail'>
             <a
               onClick={

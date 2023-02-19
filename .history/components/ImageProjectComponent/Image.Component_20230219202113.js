@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { IMAGES_MANIFEST } from "next/dist/shared/lib/constants";
 
 
 const ImageComponent = ({ image, alt, directUrl, danger }) => {
@@ -6,7 +6,7 @@ const ImageComponent = ({ image, alt, directUrl, danger }) => {
     <>
       <article className='project'>
         <div className='project-group'>
-          <Image src={image} alt={alt} className='object-contain'/>
+          <IMAGES_MANIFEST src={image} alt={alt} className='object-contain'/>
           <div className='project-detail'>
             <a
               onClick={

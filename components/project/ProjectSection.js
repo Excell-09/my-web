@@ -1,5 +1,5 @@
 import ImageComponent from '../ImageProjectComponent/Image.Component';
-import { amazon, netflix, shopping } from '../../assests';
+import { amazon, netflix, shopping, twitter } from '../../assests';
 
 const ProjectImage = [
   {
@@ -18,6 +18,12 @@ const ProjectImage = [
     banner: shopping,
     title: 'shopping',
     url: 'https://shopping-three-xi.vercel.app',
+    danger: false,
+  },
+  {
+    banner: twitter,
+    title: 'twitter',
+    url: 'https://twitter-clone-pink-ten.vercel.app',
     danger: false,
   },
 ];
