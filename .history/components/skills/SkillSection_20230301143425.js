@@ -40,9 +40,9 @@ const Skills = () => {
         <Skillbar titleSkill="html" persen="70%" text="html" />
         <Skillbar titleSkill="css" persen="65%" text="css" />
         <Skillbar titleSkill="javascript" persen="60%" text="javascript" />
+        <Skillbar titleSkill="typescript" persen="60%" text="typescript" />
         <Skillbar titleSkill="tailwind" persen="65%" text="tailwind" />
         <Skillbar titleSkill="reactjs" persen="55%" text="react js" />
-        <Skillbar titleSkill="typescript" persen="60%" text="typescript" />
       </div>
     </section>
   );

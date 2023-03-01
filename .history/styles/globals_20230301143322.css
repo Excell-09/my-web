@@ -146,11 +146,11 @@ html {
   }
 
   .typescript {
-    @apply bg-blue-700;
+    @apply bg-blue-900;
   }
 
   .typescriptProgressBar {
-    background-color: rgb(30 64 175) !important;
+    background-color: rgb(30 58 138) !important;
     animation-name: aniProgressBarTypescript;
     animation-duration: 2s;
     animation-timing-function: ease;

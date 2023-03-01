@@ -1,15 +1,12 @@
-
-const Skillbar = ({ titleSkill, persen, text, animasi }) => {
+const Skillbar = ({ titleSkill, persen, text }) => {
   const SKILLS_BG = {
-    html: "html",
-    css: "css",
-    javascript: "javascript",
-    tailwind: "tailwind",
-    reactjs: "reactjs",
-    github:"github",
+    html: 'html',
+    css: 'css',
+    javascript: 'javascript',
+    tailwind: 'tailwind',
+    reactjs: 'reactjs',
+    typescript: 'typescript',
   };
-
-
 
   return (
     <>

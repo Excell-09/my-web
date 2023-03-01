@@ -146,7 +146,7 @@ html {
   }
 
   .typescript {
-    @apply bg-blue-700;
+    @apply bg-blue-800;
   }
 
   .typescriptProgressBar {

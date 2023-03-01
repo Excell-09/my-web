@@ -1,6 +1,6 @@
-import amazon from './amazon.png';
-import netflix from './netflix.jpg';
-import shopping from './shopping.png';
-import twitter from './twiter.png';
+import amazon from './amazon-min.png';
+import jobfind from './jobify-min.png';
+import shopping from './shopping-min.png';
+import twitter from './twiter-min.png';
 
-export { amazon, netflix, shopping, twitter };
+export { amazon, jobfind, shopping, twitter };

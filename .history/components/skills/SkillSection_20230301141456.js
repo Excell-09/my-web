@@ -27,7 +27,7 @@ const Skills = () => {
     animateF(element3, "javascriptProgressBar");
     animateF(element4, "tailwindProgressBar");
     animateF(element5, "reactjsProgressBar");
-    animateF(element6, "typescriptProgressBar");
+    animateF(element6, "githubProgressBar");
   }, []);
 
   return (

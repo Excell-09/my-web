@@ -24,10 +24,10 @@ const Skills = () => {
 
     animateF(element1, "htmlProgressBar");
     animateF(element2, "cssProgressBar");
-    animateF(element3, "javascriptProgressBar");
-    animateF(element4, "tailwindProgressBar");
-    animateF(element5, "reactjsProgressBar");
-    animateF(element6, "typescriptProgressBar");
+    animateF(element3, "tailwindProgressBar");
+    animateF(element4, "javascriptProgressBar");
+    animateF(element5, "typescriptProgressBar");
+    animateF(element6, "reactjsProgressBar");
   }, []);
 
   return (
@@ -39,10 +39,10 @@ const Skills = () => {
       <div ref={element} className="w-full text-mywhite capitalize">
         <Skillbar titleSkill="html" persen="70%" text="html" />
         <Skillbar titleSkill="css" persen="65%" text="css" />
-        <Skillbar titleSkill="javascript" persen="60%" text="javascript" />
         <Skillbar titleSkill="tailwind" persen="65%" text="tailwind" />
-        <Skillbar titleSkill="reactjs" persen="55%" text="react js" />
+        <Skillbar titleSkill="javascript" persen="60%" text="javascript" />
         <Skillbar titleSkill="typescript" persen="60%" text="typescript" />
+        <Skillbar titleSkill="reactjs" persen="55%" text="react js" />
       </div>
     </section>
   );
